@@ -11,5 +11,6 @@
 ### 信号捕捉与传输  
 本项目使用思知瑞开发的脑波头带产品采集脑电数据，该脑电头带由携带TGAM模块的核心组件、头带、两个电机组成。该头带兼容多种软硬件开发平台,具有拓展性强、满足多种编程需求、使用简便的特点。  
 ![头带图片](https://github.com/IEwonder/Design_of_Intelligent_Car_Control_System_based_on_EEG/blob/main/photo/%E5%9B%BE%E7%89%871.png)  
-ThinkGear Asic Module（TGAM）可以处理并输出脑波频率谱，脑电信号质量，原始脑电波和三个Neurosky的eSense参数：专注度，放松度和眨眼侦测。TGAM模块能直接连接干接触点，不像传统医学用的湿传感器使用时需要上导电胶 ；单EEG脑电通道有3个接触点：EEG（脑电采集点）REF（参考点）GND（地线点） ；上电后若接触点连续四秒没有采集到脑电或连续七秒收到差的脑电信号， 智慧模块会通过“信号质量强度”发出信号差的警告，提醒用户调整传感器。  
-
+ThinkGear Asic Module（TGAM）可以处理并输出脑波频率谱，脑电信号质量，原始脑电波和三个Neurosky的eSense参数：专注度，放松度和眨眼侦测。TGAM模块能直接连接干接触点，不像传统医学用的湿传感器使用时需要上导电胶 ；单EEG脑电通道有3个接触点：EEG（脑电采集点）REF（参考点）GND（地线点） ；上电后若接触点连续四秒没有采集到脑电或连续七秒收到差的脑电信号， 智慧模块会通过“信号质量强度”发出信号差的警告，提醒用户调整传感器。    
+![头带图片2](https://github.com/IEwonder/Design_of_Intelligent_Car_Control_System_based_on_EEG/blob/main/photo/%E5%9B%BE%E7%89%872.png)
+其中，专注度和放松度的数据为二维的、表现为增加和减少的数据，这可以应用于小车的速度增加和减小。眨眼侦测可以表现出用户是否出现眨眼动作，是一维的、表现为是或否的数据类型，将于
